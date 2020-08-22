@@ -872,7 +872,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact .info i {
   font-size: 32px;
-  color: #2dc997;
+  color: #121212;
   float: left;
 }
 
@@ -894,7 +894,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #333;
+  background: #121212;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -906,7 +906,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .social-links a:hover {
-  background: #2dc997;
+  background: #121212;
   color: #fff;
 }
 
@@ -949,7 +949,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"] {
-  background: #2dc997;
+  background: #121212;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -957,7 +957,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #51d8ad;
+  background: #323232;
 }
 
 /*--------------------------------------------------------------
