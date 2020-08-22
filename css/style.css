@@ -126,7 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(21, 22, 22, 0.897);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -964,7 +964,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #343b40;
+  background: #121212;
   padding: 30px 0;
   color: #fff;
   font-size: 14px;
