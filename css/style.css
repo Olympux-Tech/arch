@@ -800,8 +800,25 @@ body.mobile-nav-active #mobile-nav-toggle {
   bottom: 0;
 }
 
-#portfolio .portfolio-item:hover img {
+/*#portfolio .portfolio-item:hover img {
   top: -30px;
+}*/
+
+.cardver {
+  position: relative !important;
+  display: inline-block !important;
+}
+
+.cardver .img-top {
+  display: none !important;
+  position: absolute !important;
+  top: 0;
+  /*left: 0;*/
+  z-index: 99;
+}
+
+.cardver:hover .img-top {
+  display: inline !important;
 }
 
 /* Team Section
