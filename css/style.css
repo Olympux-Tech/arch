@@ -487,6 +487,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Sections
 --------------------------------------------------------------*/
+/* New Page Header Section
+--------------------------------*/
+.new-page {
+  padding-top: 100px;
+  background-color: #e6e6e6;
+}
+
 /* Sections Header
 --------------------------------*/
 .section-header .section-title {
