@@ -3,6 +3,11 @@ jQuery(document).ready(function($) {
 
   //Contact
   $('form.contactForm').submit(function() {
+    var recaptcha = $("#g-recaptcha-response").val();
+    if(recaptcha ==""){
+      event.preventDefault();
+      alert("Please Check Recaptcha");
+    }
     var f = $(this).find('.form-group'),
       ferror = false,
       emailExp = /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i;
@@ -92,7 +97,7 @@ jQuery(document).ready(function($) {
     else var str = $(this).serialize();
     var action = $(this).attr('action');
     if( ! action ) {
-      action = 'contactform/contactform.php';
+      action = 'https://intense-everglades-96501.herokuapp.com/api/contact-us/submit/f';
     }
     $.ajax({
       type: "POST",
