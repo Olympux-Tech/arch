@@ -98,9 +98,9 @@ jQuery(document).ready(function($) {
     var action = $(this).attr('action');
     if( ! action ) {
       // production
-      // action = 'https://intense-everglades-96501.herokuapp.com/api/contact-us/submit/f';
+      action = 'https://intense-everglades-96501.herokuapp.com/api/contact-us/submit/f';
       // testing
-      action='http://328c90ddcff9.ngrok.io/api/contact-us/submit/f';
+      // action='http://328c90ddcff9.ngrok.io/api/contact-us/submit/f';
     }
     $.ajax({
       type: "POST",
