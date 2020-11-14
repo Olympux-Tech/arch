@@ -100,7 +100,7 @@ jQuery(document).ready(function($) {
       // production
       // action = 'https://intense-everglades-96501.herokuapp.com/api/contact-us/submit/f';
       // testing
-      action=' http://microservice.test/api/contact-us/submit/f';
+      action='http://328c90ddcff9.ngrok.io/api/contact-us/submit/f';
     }
     $.ajax({
       type: "POST",
