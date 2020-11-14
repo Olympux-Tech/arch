@@ -97,7 +97,10 @@ jQuery(document).ready(function($) {
     else var str = $(this).serialize();
     var action = $(this).attr('action');
     if( ! action ) {
-      action = 'https://intense-everglades-96501.herokuapp.com/api/contact-us/submit/f';
+      // production
+      // action = 'https://intense-everglades-96501.herokuapp.com/api/contact-us/submit/f';
+      // testing
+      action=' http://microservice.test/api/contact-us/submit/f';
     }
     $.ajax({
       type: "POST",
